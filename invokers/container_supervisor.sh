@@ -11,4 +11,4 @@ sudo yum install -y docker python3 python3-pip
 
 pip3 install docker
 
-curl -L | python3 $target_container_name
+curl -L https://raw.githubusercontent.com/gabriel-dantas98/shellzera/master/invokers/python_supervisor/supervisor.py | python3 $target_container_name
