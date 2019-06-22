@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# USAGE: curl -L https://raw.githubusercontent.com/gabriel-dantas98/shellzera/master/invokers/container_supervisor.sh | bash [CONTAINER-NAME]
+
 mkdir -p /var/log/container_supervisor/
 touch /var/log/container_supervisor/execution.log
 
